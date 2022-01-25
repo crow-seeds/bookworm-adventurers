@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url(trebuchet.ttf);
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url(times-new-roman.ttf);
+}
+
+@font-face {
+  font-family: "Courier New";
+  src: url(cour.ttf);
+}
+
+@font-face {
+  font-family: "Comic Sans";
+  src: url(comic.ttf);
+}
+
+@font-face {
+  font-family: "Wingdings";
+  src: url(wingding.ttf);
+}
+
+body{
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.cell{
+    font-size: 3rem;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0);
+    width: 15vmin;
+    height: 15vmin;
+    display: table-cell;
+    font-weight: 700;
+    vertical-align: middle;
+    border-left: thin solid #ddd;
+    border-right: thin solid #ddd;
+    border-bottom: thin solid #ddd;
+    border-top: thin solid #ddd;
+    text-transform: uppercase;
+    position: relative;
+    transition: background-color 0.3s ease;
+    touch-action: manipulation;
+
+    outline:none;
+    padding: 0px;
+    align-items: stretch;
+}
+
+.word{
+  font-size: 3rem;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0);
+  width: 60vmin;
+  height: 12vmin;
+  display: table-cell;
+  font-weight: 700;
+  vertical-align: middle;
+  border-left: thin solid #ddd;
+  border-right: thin solid #ddd;
+  border-bottom: thin solid #ddd;
+  border-top: thin solid #ddd;
+  text-transform: uppercase;
+  position: relative;
+  transition-duration: 0.3s;
+
+  touch-action: manipulation;
+}
+
+.container{
+  display: block;
+  margin: auto;
+  overflow: auto;
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 2rem;
+  color: DarkGrey;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.button {
+  background-color: #444444;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-weight: 400;
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 8px auto;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  outline:none;
+
+  font-size: 2rem;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+.button:disabled {
+  background-color: #AAA;
+}
+
+input[type="checkbox"]{
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+  vertical-align: middle;
+}
+
+.input{
+  background-color: #EDF1F7;
+  border-width: 0px;
+  border-style: hidden;
+  border-bottom: solid 2px;
+  border-bottom-color: #444444;
+  padding: 20px;
+  font-weight: 400;
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 8px auto;
+  outline:none;
+
+
+  font-size: 2rem;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+}
+
+.text{
+  font-size: 2rem;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0);
+  font-weight: 400;
+}
+
+.playerText{
+  font-size: 1.5rem;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0);
+  text-align:left;
+  padding-left: 50px;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  length: 100%;
+}
+
+.topThing{
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0);
+  width: 60vmin;
+  height: 15vmin;
+  display: table-cell;
+  font-weight: 400;
+  vertical-align: middle;
+  border-left: medium solid #000;
+  border-right: medium solid #000;
+  border-bottom: medium solid #000;
+  border-top: medium solid #000;
+  position: relative;
+}
